@@ -1,0 +1,115 @@
+@media (min-width: 384px) {
+    .container-h-100 {
+        height: 100% !important;
+    }
+}
+
+@media (max-width: 383px) {
+    .container-h-100 {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+}
+
+.confirm-header {
+    background-color: #413B3B;
+    color: white;
+}
+
+.confirm-body {
+    min-height: 489px;
+    background-color: #fff;
+}
+
+.ft-24 {
+    font-size: 24px
+}
+
+.ft-12 {
+    font-size: 12px
+}
+
+.ft-10 {
+    font-size: 10px
+}
+
+.bg-magenta {
+    background-color: #ed0e78;
+    color: white;
+}
+
+p {
+    margin: 0;
+    font-size: 12px;
+}
+
+option {
+    font-size: 12px;
+}
+
+input {
+    font-size: 12px;
+}
+
+.form-control-sm {
+    font-size: 12px !important;
+}
+
+td {
+    font-size: 12px;
+}
+
+.card-active {
+    border: 1px solid rgba(0,0,0,.125);
+    transition: border 0.5s, background-color 0.5s;
+}
+
+.card-active:hover {
+    cursor: pointer;
+    background-color: #01a7e310;
+    border: 1px solid #01a7e3;
+}
+
+.card-disable {
+    background-color: rgb(240, 240, 240);
+}
+
+.react-datepicker-wrapper {
+    display: block !important;
+}
+
+.react-datepicker__input-container {
+    display: block !important;
+}
+
+.react-datepicker-wrapper:hover {
+    cursor: pointer;
+}
+
+.pagination-wrap {
+    margin: auto;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+.pagination-wrap .pagination-v1 li a, .pagination-wrap .pagination-v1 li span {
+    background-color: #ED0875;
+    border: 1px solid #ea5745;
+    border-radius: 4px;
+    color: #fff;
+    float: left;
+    font-size: 14px;
+    line-height: 1.42857;
+    margin-right: 5px;
+    padding: 4px 10px;
+    position: relative;
+    text-decoration: none;
+}
+
+.pagination-wrap .pagination-v1 li a:active, .pagination-wrap .pagination-v1 li a:hover, .pagination-wrap .pagination-v1 li span:hover, .pagination-wrap .pagination-v1 li a:focus, .pagination-wrap .pagination-v1 li span:focus, .pagination-wrap .pagination-v1 li a.active {
+    cursor: pointer;
+    background-color: #F6871F !important;
+    border-color: #ea5745;
+    color: #fff;
+}
